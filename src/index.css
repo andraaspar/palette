@@ -1,0 +1,21 @@
+@import 'normalize.css';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: ui-sans-serif, sans-serif;
+	font-size: 14px;
+	line-height: calc(20 / 14);
+	tab-size: 2;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+}
